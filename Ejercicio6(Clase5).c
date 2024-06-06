@@ -22,7 +22,7 @@ int main() {
     if(notas[i] < 6){
         desaprobados += 1;
     }
-    if(notas[i] > notas[i-1] || i == 0){
+    if(notas[i] > notaMAX || i == 0){
         notaMAX = notas[i];
         alumMAX = i+1;
     }
@@ -30,5 +30,6 @@ int main() {
     printf("La cantidad de alumnos aprobados es de: %.d\n", aprobados);
     porcentajeD = (desaprobados * 100) /cantidadA;
     printf("El porcentaje de desaprobados es de: %.2f\n", porcentajeD);
+    printf("El alumno numero %d tuvo la nota mas alta, y fue: %.2f\n", alumMAX, notaMAX);
     return 0;
 }
