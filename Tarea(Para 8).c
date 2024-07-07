@@ -1,3 +1,8 @@
+/*Tarea: Cargar en una matriz cargar las notas de 3 alumnos en 3 materias. Mostrar
+el promedio de cada alumno, promedio por materia, porcentaje de notas aprobadas
+diagonal principal y nota maxima con su estudiante y en que materia.
+*/
+
 #include <stdio.h>
 #include <stdlib.h>
 
